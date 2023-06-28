@@ -55,7 +55,7 @@ export default function Home() {
           <p className={styles.mainLDisMin}>They are the global citizens of <br/> tomorrow. Start your study <br/> abroad journey today.</p>
         </div>
         <div className={styles.mainLIcon}>
-          <div className={styles.linkIcon}><FontAwesomeIcon icon={faExternalLink}></FontAwesomeIcon></div>
+          <div className={styles.linkIcon}><FontAwesomeIcon icon={faExternalLink} color={'white'}></FontAwesomeIcon></div>
           <p className={styles.mainLIconLive}>Live on</p>
           <Image src='/dds.png' width={50} height={50} alt='disney'></Image>
         </div>
