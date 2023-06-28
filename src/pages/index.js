@@ -20,7 +20,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
 
        <div className={styles.ad}>
-        <p className={styles.adTitle}>Leverage Edu Scholarship Worth <span className={styles.rupeeIcon}><FontAwesomeIcon icon={faInr}></FontAwesomeIcon></span> 7,00,00,000 </p>
+        <p className={styles.adTitle}>Leverage Edu Scholarship Worth <span className={styles.rupeeIcon}><FontAwesomeIcon icon={faInr} color={'whitesmoke'}></FontAwesomeIcon></span> 7,00,00,000 </p>
         <button className={styles.adButton}>Apply now</button>
        </div>
 
@@ -34,13 +34,13 @@ export default function Home() {
         <div className={styles.headerTab}>Products</div>
         <div className={styles.headerTab}>More</div>
         <div className={styles.headerIcon}>
-          <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faSearch} color={'whitesmoke'}></FontAwesomeIcon>
         </div>
         <div className={styles.headerIcon}>
-        <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+        <FontAwesomeIcon icon={faPhone} color={'whitesmoke'}></FontAwesomeIcon>
         </div>
         <div className={styles.headerIcon}>
-        <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+        <FontAwesomeIcon icon={faUser} color={'whitesmoke'}></FontAwesomeIcon>
         </div>
        </div>
        <div className={styles.halfLine}></div>
@@ -52,7 +52,7 @@ export default function Home() {
           <h1>FIRST IN THE <br/> FAMILY</h1>
         </div>
         <div className={styles.mainLDis}>
-          <p>They are the global citizens of <br/> tomorrow. Start your study <br/> abroad journey today.</p>
+          <p className={styles.mainLDisMin}>They are the global citizens of <br/> tomorrow. Start your study <br/> abroad journey today.</p>
         </div>
         <div className={styles.mainLIcon}>
           <div className={styles.linkIcon}><FontAwesomeIcon icon={faExternalLink}></FontAwesomeIcon></div>
@@ -66,10 +66,10 @@ export default function Home() {
           <button className={styles.mainLButtonExpert}> Talk to an Expert </button>
         </div>
         <div className={styles.mainLBottomDis}>
-          <p> 95% of our students get an admit in less than 4 vweeks</p>
+          <p className={styles.colorWhite}> 95% of our students get an admit in less than 4 vweeks</p>
         </div>
         <div className={styles.mainLBottomGlobal}>
-          <p> Our students finished university to work at global office of:</p>
+          <p className={styles.colorWhite}> Our students finished university to work at global office of:</p>
         </div>
         <div className={styles.mainLBottomOffice}>
          
@@ -91,98 +91,3 @@ export default function Home() {
   )
 }
 
-/*
- <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
-*/
